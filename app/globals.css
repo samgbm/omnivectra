@@ -1,17 +1,7 @@
+/* Filepath: /app/globals.css */
+/* Increment Goal/Purpose: Configure Tailwind v4 and establish the OmniVectra global color palette. */
+
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 
 @theme {
   /* Extending the Tailwind theme with custom OmniVectra variables */
@@ -90,17 +80,4 @@
     height: 100%;
     margin: 0;
   }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }

@@ -12,6 +12,86 @@
   --font-mono: var(--font-geist-mono);
 }
 
+
+@theme {
+  /* Extending the Tailwind theme with custom OmniVectra variables */
+
+  /* Old Rose */
+  --color-old-rose-50: #f8ecee;
+  --color-old-rose-100: #f2d9de;
+  --color-old-rose-200: #e5b3bc;
+  --color-old-rose-300: #d88d9b;
+  --color-old-rose-400: #cb6779;
+  --color-old-rose-500: #be4158;
+  --color-old-rose-600: #983446;
+  --color-old-rose-700: #722735;
+  --color-old-rose-800: #4c1a23;
+  --color-old-rose-900: #260d12;
+  --color-old-rose-950: #1b090c;
+
+  /* Soft Apricot */
+  --color-soft-apricot-50: #fcf3e9;
+  --color-soft-apricot-100: #f8e7d3;
+  --color-soft-apricot-200: #f2cfa6;
+  --color-soft-apricot-300: #ebb67a;
+  --color-soft-apricot-400: #e49e4e;
+  --color-soft-apricot-500: #de8621;
+  --color-soft-apricot-600: #b16b1b;
+  --color-soft-apricot-700: #855014;
+  --color-soft-apricot-800: #59360d;
+  --color-soft-apricot-900: #2c1b07;
+  --color-soft-apricot-950: #1f1305;
+
+  /* Almond Cream */
+  --color-almond-cream-50: #f9f3ec;
+  --color-almond-cream-100: #f3e6d8;
+  --color-almond-cream-200: #e7ceb1;
+  --color-almond-cream-300: #dab58b;
+  --color-almond-cream-400: #ce9d64;
+  --color-almond-cream-500: #c2843d;
+  --color-almond-cream-600: #9b6a31;
+  --color-almond-cream-700: #744f25;
+  --color-almond-cream-800: #4e3518;
+  --color-almond-cream-900: #271a0c;
+  --color-almond-cream-950: #1b1209;
+
+  /* Muted Teal */
+  --color-muted-teal-50: #eff5f4;
+  --color-muted-teal-100: #dfece9;
+  --color-muted-teal-200: #c0d8d3;
+  --color-muted-teal-300: #a0c5be;
+  --color-muted-teal-400: #81b1a8;
+  --color-muted-teal-500: #619e92;
+  --color-muted-teal-600: #4e7e75;
+  --color-muted-teal-700: #3a5f58;
+  --color-muted-teal-800: #273f3a;
+  --color-muted-teal-900: #13201d;
+  --color-muted-teal-950: #0e1614;
+
+  /* Soft Periwinkle */
+  --color-soft-periwinkle-50: #f0eef6;
+  --color-soft-periwinkle-100: #e2ddee;
+  --color-soft-periwinkle-200: #c4bbdd;
+  --color-soft-periwinkle-300: #a799cc;
+  --color-soft-periwinkle-400: #8977bb;
+  --color-soft-periwinkle-500: #6c55aa;
+  --color-soft-periwinkle-600: #564488;
+  --color-soft-periwinkle-700: #413366;
+  --color-soft-periwinkle-800: #2b2244;
+  --color-soft-periwinkle-900: #161122;
+  --color-soft-periwinkle-950: #0f0c18;
+}
+
+/* Base HTML layer configuration */
+@layer base {
+
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
